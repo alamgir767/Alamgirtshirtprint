@@ -1,0 +1,126 @@
+#menu{
+	
+}
+#menu li{
+	display:inline;
+	color:white;
+	text-decoration:none;
+	background:green;
+	padding:25px;
+	margin-bottom:5px;
+	margin-left:5px;
+	margin-right:105px;
+	width: 20px;
+	height: 110px;
+	
+}
+#menu li:hover{
+	background-color:red;
+}
+.myDiv {
+	width: 350px;
+	height: 200px;
+  border: 2px outset black;
+  background-color: lightgreen;
+  text-align: center;
+  margin-top: 60px;
+  float:left;
+}
+.myDiv2 {
+	width: 350px;
+	height: 200px;
+  border: 2px outset black;
+  background-color: lightgreen;
+  text-align: center;
+  margin-top: 60px;
+  margin-left: 10px;
+float:left;}
+.button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  float:left;
+}
+
+.button1 {
+  background-color: #1877f2;
+  color: black;
+  border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+.button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  
+}
+
+.button2 {
+  background-color: #1877f2;
+  color: black;
+  border: 2px solid #4CAF50;
+}
+
+.button2:hover {
+  background-color: #4CAF50;
+color: white;}
+
+.div1{
+	width: 350px;
+	height: 200px;
+  border: 2px outset black;
+  background-color: lightgreen;
+  text-align: center;
+  margin-top: 60px;
+  margin-left: 10px;
+float:left;}
+.div2{
+  width: 350px;
+  height: 200px;
+  border: 2px outset black;
+  background-color: lightgreen;
+  text-align: center;
+  margin-top: 60px;
+  margin-left: 10px;
+float:}
+
+.div3{
+	width: 350px;
+	height: 200px;
+  border: 2px outset black;
+  background-color: lightgreen;
+  text-align: center;
+  margin-top: 60px;
+  margin-left: 10px;
+float:left;}
+.button3 {
+  background-color: red;
+  color: black;
+  border: 2px solid #4CAF50;
+  margin-top: 350px;
+  padding-right: 300px;
+  text-decoration: center-right;
+}
+
+.button3:hover {
+  background-color: green;
+color: white;}
+
