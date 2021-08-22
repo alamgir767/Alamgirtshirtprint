@@ -7,21 +7,97 @@
 
 <body  bgcolor="lightgreen">
 
-<ul id="menu">
-  <li><a href="index.html">Home</a></li>
-  <li><a href="home.html">Product</a></li>
-  <li><a href="indexs.html">Contact</a></li>
-  <li><a href="indexs.html">About</a></li>
-</ul>
+<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<div class="icon-bar">
+  <a class="active" href="index.html"><i class="fa fa-home">  Home</i></a>
+  <a class="active"  href="home.html"><i class="fa fa-globe">  Product</i></a>
+  <a class="active" href="indexs.html"><i class="fa fa-envelope">  Contact</i></a>
+  <a class="active" href="page.html"><i class="fa fa-globe">  Log in</i></a>
+  <a class="active" href="#"><i class="fa fa-search">  Search</i></a>
+</div>
+
 
 
  
  
-<div><button class="button button3"><a href="home.html"><b>Order</b></button></div>
-<div><button class="button button3"><a href="indexs.html">Details</button></div>
+<div class="row">
+  <div class="col-75">
+    <div class="container">
+      <form action="/action_page.php">
 
+        <div class="row">
+          <div class="col-50">
+            <h3>Billing Address</h3>
+            <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Full name">
+            <label for="email"><i class="fa fa-envelope"></i> Email</label>
+            <input type="text" id="email" name="email" placeholder="@gmail.com">
+            <label for="adr"><i class="fa fa-address-card-o"></i> ঠিকানা</label>
+            <input type="text" id="adr" name="address" placeholder="গ্রাম, ইউনয়িন,থানা, জেলা">
+            <label for="city"><i class="fa fa-institution"></i> কুরিয়ার ঠিকানা
+</label>
+            <input type="text" id="city" name="city" placeholder="আপনার নিকটতম কুরিয়ার এর নাম ঠিকানা">
 
- </div>
-  
+            <div class="row">
+              <div class="col-50">
+                <label for="state">আইডি কার্ডের নাম্বার এবং জন্মতারিখ</label>
+                <input type="text" id="state" name="state" placeholder="আইডি নাম্বার / জন্ম তারিখ">
+              </div>
+			  
+			  
+			  
+              <div class="col-50">
+                <label for="zip">পন্যের কোড</label>
+                <input type="text" id="zip" name="zip" placeholder="0001">
+              </div>
+            </div>
+          </div>
+		  
+		 
+		  
+		 
+
+          <div class="col-50">
+            <h3>Payment</h3>
+            <label for="fname">Accepted Tk </label>
+            <div class="icon-container">
+              <i class="fa fa-cc-bkash" style="color:navy;">বিকাশ
+</i>
+              <i class="fa fa-cc-Nagat" style="color:blue;">/ নগদ</i>
+              <i class="fa fa-cc-" style="color:red;"></i>
+              <i class="fa fa-cc-" style="color:orange;"></i>
+            </div>
+            <label for="cname">টাকা পাঠানোর মাধ্যম</label>
+            <input type="text" id="cname" name="cardname" placeholder="বিকাশ  /  নগদ">
+            <label for="ccnum">বিকাশ  /  নগদ নাম্বার
+</label>
+            <input type="text" id="ccnum" name="cardnumber" placeholder="যে নাম্বার থেকে টাকা পাঠিয়েছেন">
+            <label for="expmonth">টাকা পাঠানোর তারিখ</label>
+            <input type="text" id="expmonth" name="expmonth" placeholder=" তারিখ">
+
+            <div class="row">
+              <div class="col-50">
+                <label for="expyear">টাকার পরিমান</label>
+                <input type="text" id="expyear" name="expyear" placeholder="টাকা">
+              </div>
+              <div class="col-50">
+                <label for="cvv">আপনার ফোন নাম্বার</label>
+                <input type="text" id="cvv" name="cvv" placeholder="+088">
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <label>
+          <input type="checkbox" checked="pag.html" name="pag.html"> এখানে দেয়া সব তথ্য সঠিক আছে
+        </label>
+        <input type="submit" value="Continue to Order" class="btn">
+      </form>
+    </div>
+  </div>
+
   
 
